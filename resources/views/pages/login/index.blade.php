@@ -27,7 +27,7 @@
                                 <a href="#">Forgot password?</a>
                             </div>
                             <div class="form-group">
-                                <a href="index.html" class="btn btn-fill-out btn-block" name="login">Mausk</a>
+                                <a href="index.html" class="btn btn-fill-out btn-block" name="login">Masuk</a>
                             </div>
                         </form>
                         <div class="different_login">

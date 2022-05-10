@@ -39,7 +39,7 @@
                         <div class="different_login">
                             <span> or</span>
                         </div>
-                        <div class="form-note text-center">Don't Have an Account? <a href="login.html">Sign up now</a></div>
+                        <div class="form-note text-center">Have an Account? <a href="/login">Sign in now</a></div>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
                         <div class="heading_s1">
                             <h3>Registration Form</h3>
                         </div>
-                        <form method="post" action="/register">
+                        <form method="post" action="{{route('auth.store')}}">
                             @csrf
                             <div class="form-group">
                                 <input type="text" required="" class="form-control" name="email" placeholder="Your Email">
@@ -26,12 +26,6 @@
                                 <input class="form-control" required="" type="password" name="password" placeholder="Password">
                             </div>
                             <div class="login_footer form-group">
-                                <div class="chek-form">
-                                    <div class="custome-checkbox">
-                                        <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox1" value="">
-                                        <label class="form-check-label" for="exampleCheckbox1"><span>Remember me</span></label>
-                                    </div>
-                                </div>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-fill-out btn-block" name="login">Register</button>
@@ -40,7 +34,7 @@
                         <div class="different_login">
                             <span> or</span>
                         </div>
-                        <div class="form-note text-center">Have an Account? <a href="/login">Sign in now</a></div>
+                        <div class="form-note text-center">Don't Have an Account? <a href="login.html">Sign up now</a></div>
                     </div>
                 </div>
             </div>

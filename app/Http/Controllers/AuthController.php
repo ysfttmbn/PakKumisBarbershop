@@ -28,11 +28,11 @@ class AuthController extends Controller
     public function create()
     {
         
-        User::create($validatedData);
+        // User::create($validatedData);
 
-        Session::flash('success','Registration Success, Please Login!'); 
+        // Session::flash('success','Registration Success, Please Login!'); 
 
-        return redirect('login');
+        // return redirect('login');
     }
 
     /**

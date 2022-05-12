@@ -10,7 +10,8 @@
                         <div class="heading_s1">
                             <h3>Registration Form</h3>
                         </div>
-                        <form method="post">
+                        <form method="post" action="/login">
+                            @csrf
                             <div class="form-group">
                                 <input type="text" required="" class="form-control" name="email" placeholder="Your Email">
                             </div>
